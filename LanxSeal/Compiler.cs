@@ -27,7 +27,7 @@ namespace LanxSeal
                 {"CompilerVersion", "v4.0" }
             };
 
-            var compilerOptions = "/target:winexe /platform:anycpu /optimize";
+            var compilerOptions = "/target:winexe /platform:x86 /optimize";
             if (sourceIconPath != null)
             {
                 File.Copy(sourceIconPath, destinationIconPath, true);
